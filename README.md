@@ -1,12 +1,11 @@
 # Calculator
 ![]()
 ## Overview
-This application allows users to add, subtract, multiply, or divide numbers!
+This application allows users to add, subtract, multiply, and divide numbers!
 
 ## Application Features
-1) 
-2)
-3) 
+1) Buttons 0-9 and "." for numbers
+2) Buttons "*", "/", "-", "+", "=", and "C" for functionality
 
 ## Technologies
 HTML, CSS, Javascript
