@@ -1,9 +1,9 @@
 (function () {
 
-    let screen = $(".screen");
+    let screen = $("#screen");
     let buttons = $(".btn");
-    let equal = $(".btn-equal");
-    let clear = $(".btn-clear");
+    let equal = $("#btn-equal");
+    let clear = $("#btn-clear");
 
     // Get data from buttons clicked
     buttons.forEach(function(button) {
