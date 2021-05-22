@@ -68,9 +68,14 @@ button:hover {
 #btn-equal {
     background: green;
     font-size: 400%;
+} #btn-equal:hover{
+    background: royalblue;
 }
 
 #btn-clear {
     background: red;
     font-size: 400%;
+} #btn-clear:hover {
+    background: royalblue;
 }
+
