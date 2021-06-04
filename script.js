@@ -1,28 +1,29 @@
 (function () {
 
-    let screen = $("#screen");
-    let buttons = $(".btn");
-    let equal = $("#btn-equal");
-    let clear = $("#btn-clear");
+    let screen = document.querySelector('#screen');
+    let buttons = document.querySelectorAll('.btn');
+    let clear = document.querySelector('#btn-clear');
+    let equal = document.querySelector('#btn-equal');
 
     // Get data from buttons clicked
-    buttons.forEach(function(button) {
-        button.addEventListener("click", function(e) {
+    buttons.forEach(function (button) {
+        button.addEventListener('click', function (e) {
             let value = e.target.dataset.num;
             screen.value += value;
         })
-    });
+    })
 
-    equal.addEventListener("click", function(e) {
-        if (screen.value === " ") {
-            screen.value = "Please Enter a Value";
+    equal.addEventListener('click', function (e) {
+        if (screen.value === '') {
+            screen.value = 'Please Enter a Value';
         } else {
             let answer = eval(screen.value);
             screen.value = answer;
         }
-    });
+    })
 
-    clear.addEventListener("click", function(e) {
-        screen.value =  " ";
-    });
-})
+    clear.addEventListener('click', function (e) {
+        screen.value = '';
+    })
+
+})(); 
