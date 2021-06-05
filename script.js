@@ -5,7 +5,7 @@
     let clear = document.querySelector('#btn-clear');
     let equal = document.querySelector('#btn-equal');
 
-    // Get data from buttons clicked
+    // Get number from buttons clicked
     buttons.forEach(function (button) {
         button.addEventListener('click', function (e) {
             let value = e.target.dataset.num;
@@ -25,5 +25,4 @@
     clear.addEventListener('click', function (e) {
         screen.value = '';
     })
-
 })(); 
