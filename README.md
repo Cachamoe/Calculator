@@ -9,7 +9,8 @@ Here is a link to the deployed webpage: [https://cachamoe.github.io/Calculator/]
 
 ## Application Features
 1) Buttons 0-9 and "." for numbers
-2) Buttons "*", "/", "-", "+", "=", and "C" for functionality
+2) Buttons "*", "/", "-", "+", "=", for math functionality
+3) Button "C" to clear calculator
 
 ## Technologies
 HTML, CSS, Javascript
